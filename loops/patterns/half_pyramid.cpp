@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+    int lines;
+
+    cout << "Enter number of lines: ";
+    cin >> lines;
+
+    for(int i=0; i<lines; i++){
+        for(int j=0; j<=i; j++){
+            cout << "*";
+        }
+        cout << endl;
+    }
+
+    return 0;
+}
